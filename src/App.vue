@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Main id="app" class=" py-2 px-8  min-h-screen">
+    <Main_index_page/>
+
+  </Main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Main_index_page from './components/Main_index_page.vue';
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Main_index_page,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
